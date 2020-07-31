@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Banner from '../../../../components/Banner'
-import PhotoForm from '../../../Photo/components/PhotoForm'
 import "./AddEdit.scss"
+import Banner from 'components/Banner';
+import PhotoForm from 'features/Photo/components/PhotoForm';
 
 AddEditPage.propTypes = {
     

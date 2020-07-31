@@ -1,9 +1,10 @@
-import React from 'react';
+import { PHOTO_CATEGORY_OPTTIONS } from 'constants/global';
+import Images from "constants/images";
 import PropTypes from 'prop-types';
-import { Form, FormGroup, Button, Input, Label } from "reactstrap";
+import React from 'react';
 import Select from 'react-select';
-import Images from '../../../../constants/images'
-import { PHOTO_CATEGORY_OPTTIONS } from "../../../../constants/global";
+import { Button, Form, FormGroup, Input, Label } from "reactstrap";
+
 
 
 const PhotoForm = props => {
@@ -22,7 +23,7 @@ const PhotoForm = props => {
             <FormGroup>
                 <Label for="categoryId">Photo</Label>
                 <div><Button type="button"outline color="primary">Random a photo</Button></div>
-                <div><img width="200" height="200" src={Images.COLORFUL_BG} alt="image photo"/></div>
+                <div><img width="200" height="200" src={Images.COLORFUL_BG} alt="img"/></div>
             </FormGroup>
 
             <FormGroup>
