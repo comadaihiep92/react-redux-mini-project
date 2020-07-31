@@ -13,7 +13,7 @@ const Header = props => {
                         <a className="header__link header__title" target="_blank" rel="noopener noreferrer"  href="https://www.freelancer.com/dashboard">Stork</a>
                     </Col>
                     <Col xs="auto">
-                        <NavLink className="header__link" to="/photos" activeClassName="header__link--active">Redux Project</NavLink>
+                        <NavLink className="header__link" exact to="/photos" activeClassName="header__link--active">Redux Project</NavLink>
                     </Col>
                 </Row>
             </Container>
